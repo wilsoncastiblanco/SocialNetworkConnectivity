@@ -108,7 +108,7 @@ public class SocialNetworkConnectivity {
                 linea = bufferedReader.readLine();
 
             }
-            StdOut.println("Terminó " + weightedUnionFind.allSitesConnected());
+            System.out.println("Terminó " + weightedUnionFind.allSitesConnected());
 
         }
 
