@@ -38,7 +38,7 @@ public class SocialNetworkConnectivity {
         }
 
         public int root(int index) {
-            while (index != this.ids[index]) {
+            if (index != this.ids[index]) {
                 index = this.ids[index];
             }
             return index;
