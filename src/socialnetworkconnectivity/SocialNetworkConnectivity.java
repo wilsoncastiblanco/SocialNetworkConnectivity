@@ -57,11 +57,11 @@ public class SocialNetworkConnectivity {
             }
 
             if (size[rootP] < size[rootQ]) {
-                ids[rootP] = q;
+                ids[rootP] = rootQ;
                 size[rootQ] += ids[rootP];
 
             } else {
-                ids[rootQ] = p;
+                ids[rootQ] = rootP;
                 size[rootP] += ids[rootQ];
             }
 
